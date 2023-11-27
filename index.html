@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>ITMO</title>
+    <style type="text/css">
+   html, body {
+      height: 100%;
+      margin: 0;
+   }
+
+   .Heading { 
+    width: 100%; 
+    height: 15%;
+    background: #292929;
+    display: flex; /* Используем flexbox */
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+
+   }
+   .logo { 
+    width: 300px;
+    height: 150px;
+    background-image: url("image/222.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+   }
+
+   .block { 
+    width: 100%;
+    height: 75%;
+    background:#474747;
+    float: left;
+    position: relative;
+   }
+
+   .navigation { 
+    width: 20%;
+    height: 100%;
+    background: #474747;
+    float: left;
+	margin-top: 80px;
+   }
+   .navigation a{ 
+    text-decoration: none; /* Убираем подчёркивание */
+	padding: 30px;
+	display:flex;
+	align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+	border: 2px double black;
+   }
+   .navigation a:hover {
+    background: black; /* Цвет фона при наведении на ссылку курсора */
+    color: white; /* Новый цвет текста */
+   }
+
+   .information { 
+    width: 80%;
+    height: 100%;
+    background: #474747;
+    float: right;
+	
+	
+   }
+
+   .data { 
+    width: 100%;
+    height: 10%;
+    background: blue;
+    position: absolute;
+    bottom: 0;
+	background: #292929;
+   }.data p { 
+ margin-right: 35px;
+   }
+    .datas{ 
+    display: flex;
+  justify-content: center;
+   }
+    .class  {
+    width: auto; /* Изменено */
+    height: auto; /* Автоматическая высота */
+
+   }
+   
+   .class img {
+    width: 350px; /* Изменено */
+    height: 500px; /* Автоматическая высота */
+    float: left;
+    margin-right: 15px;
+	margin-top: 80px;
+    margin-left: 30px;	/* Добавлено отступ справа */
+   }
+       .class p {
+    width: 300px; /* Изменено */
+    height: 500px;
+    margin-top: 80px;	
+	float:left;/* Автоматическая высота */
+
+   }
+   
+   
+   </style> 
+ </head>
+ <body>
+   <div class="Heading">
+      <div class="logo"></div>
+   </div>
+   <div class="block">
+      <div class="navigation">
+         <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%B1%D1%81,_%D0%A1%D1%82%D0%B8%D0%B2"><font size="18" color=white>Wikipedia</a></font></br>
+         <a href="https://www.tadviser.ru/index.php/%D0%9F%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0:%D0%94%D0%B6%D0%BE%D0%B1%D1%81_%D0%A1%D1%82%D0%B8%D0%B2_(Steve_Jobs)"><font size="18" color=white>TAdviser</a></font></br>
+         <a href="https://secretmag.ru/enciklopediya/stiv-dzhobs.htm"><font size="18" color=white>Secrets</a></font></br>
+         <a href="https://www.thevoicemag.ru/stars/biography/stiv-dzhobs/"><font size="18" color=white>TheVoiceMag</a></font></br>
+      </div>
+      <div class="information">
+         <div class="class">
+            <img src="image/1233.jpg" alt="Письма мастера дзен">
+			<img src="image/444.jpg" alt="Письма мастера дзен">
+			<div class="class"><p><font size="10" color=white>
+               Стивен Джобс родился в городке Маунтин-Вью в штате Калифорния (США) 24 февраля 1955. 
+            </p></font></div>
+			<img src="image/2222.jpg" alt="Письма мастера дзен">
+         </div>
+      </div>
+   </div>
+   <div class="data"> 
+   <div class="datas"> 
+   <p><font size="6" color=white>Контактная информация:  </p></font>
+    <p><font size="6" color=white>Телефон: +1 234 567 890</p></font>
+     <p><font size="6" color=white>Email: info@example.com</p></font>
+	 </div>
+	 </div>
+ </body>
+</html> 
